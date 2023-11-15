@@ -4,7 +4,7 @@ function Menu() {
   return (
     
     <div className='menu'>
-        <h1 className='MenuTitle'>Our Menu</h1>
+        <h1 className='MenuTitle'>The Menu</h1>
         <div className='MenuList'>
             {MenuList1.map((menuItems,key)=>{
                 return <div className='menuItem'>

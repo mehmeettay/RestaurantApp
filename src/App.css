@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 5px 80px;
     background-color: #FFEFD5;
+    
 }
 
 img{
@@ -88,7 +89,51 @@ img{
 
 .menu{
     width:  100%;
+    height: 500px;
     text-align: center;
     background-color: #916929;
+    margin-top: -30px;
+    
+}
+.MenuTitle{
+    font-size: 40px;
+    font-style: italic;
+    padding-top: 25px;
+}
+.MenuList{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 5px;
 }
 
+.menuItem{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #FFEFD5;
+}
+
+.menuItem img{
+    height: 170px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.menuItem h3{
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+.menuItem p{
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+}
